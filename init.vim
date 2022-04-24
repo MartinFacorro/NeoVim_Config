@@ -7,6 +7,10 @@ call plug#begin(expand('~/.config/nvim/plugged'))
 
 Plug 'dracula/vim'
 
+Plug 'preservim/nerdtree'
+
+Plug 'OmniSharp/omnisharp-vim'
+
 call plug#end()
 
 colorscheme dracula  " Nombre del tema
@@ -33,3 +37,5 @@ set termguicolors  " Activa true colors en la terminal
 set background=dark  " Fondo del tema: light o dark
 
 
+"" Status bar
+set laststatus=2
